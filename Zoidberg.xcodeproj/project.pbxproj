@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B01CB915B7332200CA660C /* I'm The Hero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5B01CB815B7332200CA660C /* I'm The Hero.mp3 */; };
+		A5B01CBB15B7338900CA660C /* Poisonous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5B01CBA15B7338900CA660C /* Poisonous.mp3 */; };
+		A5B01CBD15B733B900CA660C /* Crying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5B01CBC15B733B900CA660C /* Crying.mp3 */; };
+		A5B01CBF15B733E000CA660C /* Hooray!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5B01CBE15B733E000CA660C /* Hooray!.mp3 */; };
 		A5C810AB15A68366002515B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C810AA15A68366002515B1 /* UIKit.framework */; };
 		A5C810AD15A68366002515B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C810AC15A68366002515B1 /* Foundation.framework */; };
 		A5C810AF15A68366002515B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C810AE15A68366002515B1 /* CoreGraphics.framework */; };
@@ -31,36 +35,32 @@
 		A5C810F715A68C65002515B1 /* ultimate.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C810F215A68C65002515B1 /* ultimate.png */; };
 		A5C810F815A68C65002515B1 /* zoidbergtoptitle.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C810F315A68C65002515B1 /* zoidbergtoptitle.png */; };
 		A5C8113E15A7C8E2002515B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8113D15A7C8E2002515B1 /* AVFoundation.framework */; };
-		A5C8116615A80B9A002515B1 /* awww.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114715A80B93002515B1 /* awww.mp3 */; };
+		A5C8116615A80B9A002515B1 /* Awww.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114715A80B93002515B1 /* Awww.mp3 */; };
 		A5C8116715A80B9A002515B1 /* bills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114815A80B93002515B1 /* bills.mp3 */; };
-		A5C8116815A80B9A002515B1 /* brain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114915A80B94002515B1 /* brain.mp3 */; };
+		A5C8116815A80B9A002515B1 /* Brain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114915A80B94002515B1 /* Brain.mp3 */; };
 		A5C8116915A80B9A002515B1 /* cowboy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114A15A80B94002515B1 /* cowboy.mp3 */; };
-		A5C8116A15A80B9A002515B1 /* crying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114B15A80B94002515B1 /* crying.mp3 */; };
 		A5C8116B15A80B9A002515B1 /* damnright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114C15A80B94002515B1 /* damnright.mp3 */; };
 		A5C8116C15A80B9A002515B1 /* Disemboweling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114D15A80B95002515B1 /* Disemboweling.mp3 */; };
-		A5C8116D15A80B9A002515B1 /* Don't worry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114E15A80B95002515B1 /* Don't worry.mp3 */; };
-		A5C8116E15A80B9A002515B1 /* eating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114F15A80B95002515B1 /* eating.mp3 */; };
+		A5C8116D15A80B9A002515B1 /* Don't Worry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114E15A80B95002515B1 /* Don't Worry.mp3 */; };
+		A5C8116E15A80B9A002515B1 /* Eating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8114F15A80B95002515B1 /* Eating.mp3 */; };
 		A5C8116F15A80B9A002515B1 /* friends.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115015A80B95002515B1 /* friends.mp3 */; };
 		A5C8117015A80B9A002515B1 /* hearing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115115A80B96002515B1 /* hearing.mp3 */; };
-		A5C8117115A80B9A002515B1 /* hooray!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115215A80B96002515B1 /* hooray!.mp3 */; };
-		A5C8117215A80B9A002515B1 /* I'm the hero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115315A80B96002515B1 /* I'm the hero.mp3 */; };
 		A5C8117315A80B9A002515B1 /* Im a doctor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115415A80B96002515B1 /* Im a doctor.mp3 */; };
 		A5C8117415A80B9A002515B1 /* imsointoyou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115515A80B97002515B1 /* imsointoyou.mp3 */; };
 		A5C8117515A80B9A002515B1 /* inlove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115615A80B97002515B1 /* inlove.mp3 */; };
-		A5C8117615A80B9A002515B1 /* It's a horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115715A80B97002515B1 /* It's a horse.mp3 */; };
-		A5C8117715A80B9A002515B1 /* killed eh?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115815A80B97002515B1 /* killed eh?.mp3 */; };
-		A5C8117815A80B9A002515B1 /* kraw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115915A80B98002515B1 /* kraw.mp3 */; };
+		A5C8117615A80B9A002515B1 /* It's a Horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115715A80B97002515B1 /* It's a Horse.mp3 */; };
+		A5C8117715A80B9A002515B1 /* Killed Eh?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115815A80B97002515B1 /* Killed Eh?.mp3 */; };
+		A5C8117815A80B9A002515B1 /* Kraw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115915A80B98002515B1 /* Kraw.mp3 */; };
 		A5C8117915A80B9A002515B1 /* Mercy Killings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115A15A80B98002515B1 /* Mercy Killings.mp3 */; };
 		A5C8117A15A80B9A002515B1 /* My Name Isn't Slick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115B15A80B98002515B1 /* My Name Isn't Slick.mp3 */; };
 		A5C8117B15A80B9A002515B1 /* National Anthem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115C15A80B98002515B1 /* National Anthem.mp3 */; };
-		A5C8117C15A80B9A002515B1 /* poisonous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115D15A80B98002515B1 /* poisonous.mp3 */; };
 		A5C8117D15A80B9A002515B1 /* popular.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115E15A80B99002515B1 /* popular.mp3 */; };
 		A5C8117E15A80B9A002515B1 /* saftey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8115F15A80B99002515B1 /* saftey.mp3 */; };
-		A5C8117F15A80B9A002515B1 /* totally.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116015A80B99002515B1 /* totally.mp3 */; };
+		A5C8117F15A80B9A002515B1 /* Totally.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116015A80B99002515B1 /* Totally.mp3 */; };
 		A5C8118015A80B9A002515B1 /* Whoop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116115A80B99002515B1 /* Whoop.mp3 */; };
 		A5C8118115A80B9A002515B1 /* wonderful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116215A80B99002515B1 /* wonderful.mp3 */; };
-		A5C8118215A80B9A002515B1 /* yaaaahhh!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116315A80B9A002515B1 /* yaaaahhh!.mp3 */; };
-		A5C8118315A80B9A002515B1 /* yoyoyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116415A80B9A002515B1 /* yoyoyo.mp3 */; };
+		A5C8118215A80B9A002515B1 /* Yaaaahhh!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116315A80B9A002515B1 /* Yaaaahhh!.mp3 */; };
+		A5C8118315A80B9A002515B1 /* Yoyoyo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8116415A80B9A002515B1 /* Yoyoyo.mp3 */; };
 		A5C8118615A80CDE002515B1 /* Zoidberg!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8118515A80CDE002515B1 /* Zoidberg!.mp3 */; };
 		A5C8118815A80D51002515B1 /* holy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C8118715A80D51002515B1 /* holy.mp3 */; };
 		A5C8126B15A8171E002515B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8126A15A8171E002515B1 /* Security.framework */; };
@@ -146,6 +146,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5B01CB815B7332200CA660C /* I'm The Hero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I'm The Hero.mp3"; path = "../../sounds/I'm The Hero.mp3"; sourceTree = "<group>"; };
+		A5B01CBA15B7338900CA660C /* Poisonous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Poisonous.mp3; path = ../../sounds/Poisonous.mp3; sourceTree = "<group>"; };
+		A5B01CBC15B733B900CA660C /* Crying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Crying.mp3; path = ../../sounds/Crying.mp3; sourceTree = "<group>"; };
+		A5B01CBE15B733E000CA660C /* Hooray!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hooray!.mp3"; path = "../../sounds/Hooray!.mp3"; sourceTree = "<group>"; };
 		A5C810A615A68366002515B1 /* Zoidberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoidberg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C810AA15A68366002515B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5C810AC15A68366002515B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -176,36 +180,32 @@
 		A5C810F215A68C65002515B1 /* ultimate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ultimate.png; path = ../../ultimate.png; sourceTree = "<group>"; };
 		A5C810F315A68C65002515B1 /* zoidbergtoptitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zoidbergtoptitle.png; path = ../../zoidbergtoptitle.png; sourceTree = "<group>"; };
 		A5C8113D15A7C8E2002515B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		A5C8114715A80B93002515B1 /* awww.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = awww.mp3; path = ../../sounds/awww.mp3; sourceTree = "<group>"; };
+		A5C8114715A80B93002515B1 /* Awww.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Awww.mp3; path = ../../sounds/Awww.mp3; sourceTree = "<group>"; };
 		A5C8114815A80B93002515B1 /* bills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bills.mp3; path = ../../sounds/bills.mp3; sourceTree = "<group>"; };
-		A5C8114915A80B94002515B1 /* brain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = brain.mp3; path = ../../sounds/brain.mp3; sourceTree = "<group>"; };
+		A5C8114915A80B94002515B1 /* Brain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Brain.mp3; path = ../../sounds/Brain.mp3; sourceTree = "<group>"; };
 		A5C8114A15A80B94002515B1 /* cowboy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cowboy.mp3; path = ../../sounds/cowboy.mp3; sourceTree = "<group>"; };
-		A5C8114B15A80B94002515B1 /* crying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crying.mp3; path = ../../sounds/crying.mp3; sourceTree = "<group>"; };
 		A5C8114C15A80B94002515B1 /* damnright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = damnright.mp3; path = ../../sounds/damnright.mp3; sourceTree = "<group>"; };
 		A5C8114D15A80B95002515B1 /* Disemboweling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Disemboweling.mp3; path = ../../sounds/Disemboweling.mp3; sourceTree = "<group>"; };
-		A5C8114E15A80B95002515B1 /* Don't worry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Don't worry.mp3"; path = "../../sounds/Don't worry.mp3"; sourceTree = "<group>"; };
-		A5C8114F15A80B95002515B1 /* eating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eating.mp3; path = ../../sounds/eating.mp3; sourceTree = "<group>"; };
+		A5C8114E15A80B95002515B1 /* Don't Worry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Don't Worry.mp3"; path = "../../sounds/Don't Worry.mp3"; sourceTree = "<group>"; };
+		A5C8114F15A80B95002515B1 /* Eating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Eating.mp3; path = ../../sounds/Eating.mp3; sourceTree = "<group>"; };
 		A5C8115015A80B95002515B1 /* friends.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = friends.mp3; path = ../../sounds/friends.mp3; sourceTree = "<group>"; };
 		A5C8115115A80B96002515B1 /* hearing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hearing.mp3; path = ../../sounds/hearing.mp3; sourceTree = "<group>"; };
-		A5C8115215A80B96002515B1 /* hooray!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "hooray!.mp3"; path = "../../sounds/hooray!.mp3"; sourceTree = "<group>"; };
-		A5C8115315A80B96002515B1 /* I'm the hero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I'm the hero.mp3"; path = "../../sounds/I'm the hero.mp3"; sourceTree = "<group>"; };
 		A5C8115415A80B96002515B1 /* Im a doctor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Im a doctor.mp3"; path = "../../sounds/Im a doctor.mp3"; sourceTree = "<group>"; };
 		A5C8115515A80B97002515B1 /* imsointoyou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = imsointoyou.mp3; path = ../../sounds/imsointoyou.mp3; sourceTree = "<group>"; };
 		A5C8115615A80B97002515B1 /* inlove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = inlove.mp3; path = ../../sounds/inlove.mp3; sourceTree = "<group>"; };
-		A5C8115715A80B97002515B1 /* It's a horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "It's a horse.mp3"; path = "../../sounds/It's a horse.mp3"; sourceTree = "<group>"; };
-		A5C8115815A80B97002515B1 /* killed eh?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "killed eh?.mp3"; path = "../../sounds/killed eh?.mp3"; sourceTree = "<group>"; };
-		A5C8115915A80B98002515B1 /* kraw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kraw.mp3; path = ../../sounds/kraw.mp3; sourceTree = "<group>"; };
+		A5C8115715A80B97002515B1 /* It's a Horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "It's a Horse.mp3"; path = "../../sounds/It's a Horse.mp3"; sourceTree = "<group>"; };
+		A5C8115815A80B97002515B1 /* Killed Eh?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Killed Eh?.mp3"; path = "../../sounds/Killed Eh?.mp3"; sourceTree = "<group>"; };
+		A5C8115915A80B98002515B1 /* Kraw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kraw.mp3; path = ../../sounds/Kraw.mp3; sourceTree = "<group>"; };
 		A5C8115A15A80B98002515B1 /* Mercy Killings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Mercy Killings.mp3"; path = "../../sounds/Mercy Killings.mp3"; sourceTree = "<group>"; };
 		A5C8115B15A80B98002515B1 /* My Name Isn't Slick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "My Name Isn't Slick.mp3"; path = "../../sounds/My Name Isn't Slick.mp3"; sourceTree = "<group>"; };
 		A5C8115C15A80B98002515B1 /* National Anthem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "National Anthem.mp3"; path = "../../sounds/National Anthem.mp3"; sourceTree = "<group>"; };
-		A5C8115D15A80B98002515B1 /* poisonous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = poisonous.mp3; path = ../../sounds/poisonous.mp3; sourceTree = "<group>"; };
 		A5C8115E15A80B99002515B1 /* popular.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = popular.mp3; path = ../../sounds/popular.mp3; sourceTree = "<group>"; };
 		A5C8115F15A80B99002515B1 /* saftey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = saftey.mp3; path = ../../sounds/saftey.mp3; sourceTree = "<group>"; };
-		A5C8116015A80B99002515B1 /* totally.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = totally.mp3; path = ../../sounds/totally.mp3; sourceTree = "<group>"; };
+		A5C8116015A80B99002515B1 /* Totally.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Totally.mp3; path = ../../sounds/Totally.mp3; sourceTree = "<group>"; };
 		A5C8116115A80B99002515B1 /* Whoop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Whoop.mp3; path = ../../sounds/Whoop.mp3; sourceTree = "<group>"; };
 		A5C8116215A80B99002515B1 /* wonderful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wonderful.mp3; path = ../../sounds/wonderful.mp3; sourceTree = "<group>"; };
-		A5C8116315A80B9A002515B1 /* yaaaahhh!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "yaaaahhh!.mp3"; path = "../../sounds/yaaaahhh!.mp3"; sourceTree = "<group>"; };
-		A5C8116415A80B9A002515B1 /* yoyoyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yoyoyo.mp3; path = ../../sounds/yoyoyo.mp3; sourceTree = "<group>"; };
+		A5C8116315A80B9A002515B1 /* Yaaaahhh!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Yaaaahhh!.mp3"; path = "../../sounds/Yaaaahhh!.mp3"; sourceTree = "<group>"; };
+		A5C8116415A80B9A002515B1 /* Yoyoyo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Yoyoyo.mp3; path = ../../sounds/Yoyoyo.mp3; sourceTree = "<group>"; };
 		A5C8118515A80CDE002515B1 /* Zoidberg!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Zoidberg!.mp3"; path = "../../sounds/Zoidberg!.mp3"; sourceTree = "<group>"; };
 		A5C8118715A80D51002515B1 /* holy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = holy.mp3; path = ../../sounds/holy.mp3; sourceTree = "<group>"; };
 		A5C8126A15A8171E002515B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -477,37 +477,37 @@
 		A5C8113315A69937002515B1 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				A5C8114715A80B93002515B1 /* awww.mp3 */,
+				A5C8114715A80B93002515B1 /* Awww.mp3 */,
 				A5C8114815A80B93002515B1 /* bills.mp3 */,
-				A5C8114915A80B94002515B1 /* brain.mp3 */,
+				A5C8114915A80B94002515B1 /* Brain.mp3 */,
 				A5C8114A15A80B94002515B1 /* cowboy.mp3 */,
-				A5C8114B15A80B94002515B1 /* crying.mp3 */,
+				A5B01CBC15B733B900CA660C /* Crying.mp3 */,
 				A5C8114C15A80B94002515B1 /* damnright.mp3 */,
 				A5C8114D15A80B95002515B1 /* Disemboweling.mp3 */,
-				A5C8114E15A80B95002515B1 /* Don't worry.mp3 */,
-				A5C8114F15A80B95002515B1 /* eating.mp3 */,
+				A5C8114E15A80B95002515B1 /* Don't Worry.mp3 */,
+				A5C8114F15A80B95002515B1 /* Eating.mp3 */,
 				A5C8115015A80B95002515B1 /* friends.mp3 */,
 				A5C8115115A80B96002515B1 /* hearing.mp3 */,
-				A5C8115215A80B96002515B1 /* hooray!.mp3 */,
-				A5C8115315A80B96002515B1 /* I'm the hero.mp3 */,
+				A5B01CBE15B733E000CA660C /* Hooray!.mp3 */,
 				A5C8115415A80B96002515B1 /* Im a doctor.mp3 */,
 				A5C8115515A80B97002515B1 /* imsointoyou.mp3 */,
 				A5C8115615A80B97002515B1 /* inlove.mp3 */,
-				A5C8115715A80B97002515B1 /* It's a horse.mp3 */,
-				A5C8115815A80B97002515B1 /* killed eh?.mp3 */,
-				A5C8115915A80B98002515B1 /* kraw.mp3 */,
+				A5B01CB815B7332200CA660C /* I'm The Hero.mp3 */,
+				A5C8115715A80B97002515B1 /* It's a Horse.mp3 */,
+				A5C8115815A80B97002515B1 /* Killed Eh?.mp3 */,
+				A5C8115915A80B98002515B1 /* Kraw.mp3 */,
 				A5C8115A15A80B98002515B1 /* Mercy Killings.mp3 */,
 				A5C8115B15A80B98002515B1 /* My Name Isn't Slick.mp3 */,
 				A5C8115C15A80B98002515B1 /* National Anthem.mp3 */,
-				A5C8115D15A80B98002515B1 /* poisonous.mp3 */,
+				A5B01CBA15B7338900CA660C /* Poisonous.mp3 */,
 				A5C8115E15A80B99002515B1 /* popular.mp3 */,
 				A5C8115F15A80B99002515B1 /* saftey.mp3 */,
-				A5C8116015A80B99002515B1 /* totally.mp3 */,
+				A5C8116015A80B99002515B1 /* Totally.mp3 */,
 				A5C8118715A80D51002515B1 /* holy.mp3 */,
 				A5C8116115A80B99002515B1 /* Whoop.mp3 */,
 				A5C8116215A80B99002515B1 /* wonderful.mp3 */,
-				A5C8116315A80B9A002515B1 /* yaaaahhh!.mp3 */,
-				A5C8116415A80B9A002515B1 /* yoyoyo.mp3 */,
+				A5C8116315A80B9A002515B1 /* Yaaaahhh!.mp3 */,
+				A5C8116415A80B9A002515B1 /* Yoyoyo.mp3 */,
 				A5C8118515A80CDE002515B1 /* Zoidberg!.mp3 */,
 			);
 			name = Sounds;
@@ -954,36 +954,32 @@
 				A5C810F615A68C65002515B1 /* random.png in Resources */,
 				A5C810F715A68C65002515B1 /* ultimate.png in Resources */,
 				A5C810F815A68C65002515B1 /* zoidbergtoptitle.png in Resources */,
-				A5C8116615A80B9A002515B1 /* awww.mp3 in Resources */,
+				A5C8116615A80B9A002515B1 /* Awww.mp3 in Resources */,
 				A5C8116715A80B9A002515B1 /* bills.mp3 in Resources */,
-				A5C8116815A80B9A002515B1 /* brain.mp3 in Resources */,
+				A5C8116815A80B9A002515B1 /* Brain.mp3 in Resources */,
 				A5C8116915A80B9A002515B1 /* cowboy.mp3 in Resources */,
-				A5C8116A15A80B9A002515B1 /* crying.mp3 in Resources */,
 				A5C8116B15A80B9A002515B1 /* damnright.mp3 in Resources */,
 				A5C8116C15A80B9A002515B1 /* Disemboweling.mp3 in Resources */,
-				A5C8116D15A80B9A002515B1 /* Don't worry.mp3 in Resources */,
-				A5C8116E15A80B9A002515B1 /* eating.mp3 in Resources */,
+				A5C8116D15A80B9A002515B1 /* Don't Worry.mp3 in Resources */,
+				A5C8116E15A80B9A002515B1 /* Eating.mp3 in Resources */,
 				A5C8116F15A80B9A002515B1 /* friends.mp3 in Resources */,
 				A5C8117015A80B9A002515B1 /* hearing.mp3 in Resources */,
-				A5C8117115A80B9A002515B1 /* hooray!.mp3 in Resources */,
-				A5C8117215A80B9A002515B1 /* I'm the hero.mp3 in Resources */,
 				A5C8117315A80B9A002515B1 /* Im a doctor.mp3 in Resources */,
 				A5C8117415A80B9A002515B1 /* imsointoyou.mp3 in Resources */,
 				A5C8117515A80B9A002515B1 /* inlove.mp3 in Resources */,
-				A5C8117615A80B9A002515B1 /* It's a horse.mp3 in Resources */,
-				A5C8117715A80B9A002515B1 /* killed eh?.mp3 in Resources */,
-				A5C8117815A80B9A002515B1 /* kraw.mp3 in Resources */,
+				A5C8117615A80B9A002515B1 /* It's a Horse.mp3 in Resources */,
+				A5C8117715A80B9A002515B1 /* Killed Eh?.mp3 in Resources */,
+				A5C8117815A80B9A002515B1 /* Kraw.mp3 in Resources */,
 				A5C8117915A80B9A002515B1 /* Mercy Killings.mp3 in Resources */,
 				A5C8117A15A80B9A002515B1 /* My Name Isn't Slick.mp3 in Resources */,
 				A5C8117B15A80B9A002515B1 /* National Anthem.mp3 in Resources */,
-				A5C8117C15A80B9A002515B1 /* poisonous.mp3 in Resources */,
 				A5C8117D15A80B9A002515B1 /* popular.mp3 in Resources */,
 				A5C8117E15A80B9A002515B1 /* saftey.mp3 in Resources */,
-				A5C8117F15A80B9A002515B1 /* totally.mp3 in Resources */,
+				A5C8117F15A80B9A002515B1 /* Totally.mp3 in Resources */,
 				A5C8118015A80B9A002515B1 /* Whoop.mp3 in Resources */,
 				A5C8118115A80B9A002515B1 /* wonderful.mp3 in Resources */,
-				A5C8118215A80B9A002515B1 /* yaaaahhh!.mp3 in Resources */,
-				A5C8118315A80B9A002515B1 /* yoyoyo.mp3 in Resources */,
+				A5C8118215A80B9A002515B1 /* Yaaaahhh!.mp3 in Resources */,
+				A5C8118315A80B9A002515B1 /* Yoyoyo.mp3 in Resources */,
 				A5C8118615A80CDE002515B1 /* Zoidberg!.mp3 in Resources */,
 				A5C8118815A80D51002515B1 /* holy.mp3 in Resources */,
 				A5C8140815A896B7002515B1 /* SHKSharers.plist in Resources */,
@@ -993,6 +989,10 @@
 				A5C8143315A8D088002515B1 /* iconretina.png in Resources */,
 				A5C8143A15A8D42F002515B1 /* Default.png in Resources */,
 				A5C8143B15A8D437002515B1 /* Default@2x.png in Resources */,
+				A5B01CB915B7332200CA660C /* I'm The Hero.mp3 in Resources */,
+				A5B01CBB15B7338900CA660C /* Poisonous.mp3 in Resources */,
+				A5B01CBD15B733B900CA660C /* Crying.mp3 in Resources */,
+				A5B01CBF15B733E000CA660C /* Hooray!.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1292,6 +1292,7 @@
 				A5C810DE15A68367002515B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C810DF15A68367002515B1 /* Build configuration list for PBXNativeTarget "ZoidbergTests" */ = {
 			isa = XCConfigurationList;
@@ -1300,6 +1301,7 @@
 				A5C810E115A68367002515B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

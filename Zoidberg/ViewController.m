@@ -20,18 +20,18 @@
 
 - (void)touchStarted:(id)sender{
    
-    senderid = [sender currentTitle];
+    longsenderid = [sender currentTitle];
     touchTimer = [NSTimer scheduledTimerWithTimeInterval:.5 target:self selector:@selector(fireLongPress) userInfo:nil repeats:NO];
     
 }
 - (void)fireLongPress {
     
-    NSString *title = [NSString stringWithFormat:@"'%@' sound from Zoidberg for iPhone",senderid];
-    NSString *file = [NSString stringWithFormat:@"%@.mp3",senderid];
-    soundFilePath =
-    [[NSBundle mainBundle] pathForResource: senderid
+    NSString *title = [NSString stringWithFormat:@"'%@' sound from Zoidberg for iPhone",longsenderid];
+    NSString *file = [NSString stringWithFormat:@"%@.mp3",longsenderid];
+    longsoundFilePath =
+    [[NSBundle mainBundle] pathForResource: longsenderid
                                     ofType: @"mp3"];
-    NSData *myPDF = [NSData dataWithContentsOfFile:soundFilePath];
+    NSData *myPDF = [NSData dataWithContentsOfFile:longsoundFilePath];
     SHKItem *item = [SHKItem file:myPDF 
                          filename:file 
                          mimeType:@"audio/mpeg3" 
@@ -48,13 +48,13 @@
 - (void)clicked:(id)sender{
 
     if ([touchTimer isValid]) [touchTimer invalidate];
-    senderid = [sender currentTitle];
+    longsenderid = [sender currentTitle];
     
-    soundFilePath =
-    [[NSBundle mainBundle] pathForResource: senderid
+    longsoundFilePath =
+    [[NSBundle mainBundle] pathForResource: longsenderid
                                     ofType: @"mp3"];
     
-    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
+    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: longsoundFilePath];
     if(player.isPlaying){
         [player release];
     }

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-#import "SHK.h";
+#import "SHK.h"
 
 @interface ViewController : UIViewController{
     IBOutlet UIView *main;

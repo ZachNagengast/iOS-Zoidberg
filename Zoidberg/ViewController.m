@@ -25,7 +25,7 @@
     
 }
 - (void)fireLongPress {
-    
+
     NSString *title = [NSString stringWithFormat:@"'%@' sound from Zoidberg for iPhone",longsenderid];
     NSString *file = [NSString stringWithFormat:@"%@.mp3",longsenderid];
     longsoundFilePath =
@@ -85,13 +85,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    if(player.isPlaying){
+        [player release];
+    }
+
 }
 
 
